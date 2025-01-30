@@ -6,7 +6,7 @@ let numero = 0
 let url = ""
 
 function trocarImagem(){
-    if(numero === 12){
+    if(numero === 9){
         numero = 0
     }
     numero++

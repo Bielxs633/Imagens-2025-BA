@@ -16,9 +16,18 @@ body{
     background-repeat: no-repeat;
     transition: background-image 1s;
 }
+
+#img{
+    padding: 8px 8px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 15%;
+}
+
 #trocar-img{
     padding: 8px 8px;
-    font-size: 24px;
+    font-size: 13px;
     cursor: pointer;
     transition: 1s;
     border-radius: 15%;
