@@ -1,12 +1,14 @@
-:root{
-    --imagem-fundo:url(./img)
+:root {
+    --imagem-fundo: url(./imgs/img1.png);
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -14,21 +16,39 @@ body{
     background-image: var(--imagem-fundo);
     background-size: cover;
     background-repeat: no-repeat;
-    transition: background-image 1s;
+    transition: background-image 1s ease-in-out;
 }
 
-#img{
-    padding: 8px 8px;
-    font-size: 13px;
-    cursor: pointer;
-    transition: 1s;
-    border-radius: 15%;
+.container {
+    text-align: center;
 }
 
-#trocar-img{
-    padding: 8px 8px;
-    font-size: 13px;
+#img {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #333;
+    margin-right: 10px;
+    width: 120px;
+    transition: 0.3s;
+}
+
+#img:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+#trocar-img {
+    padding: 10px 15px;
+    font-size: 16px;
     cursor: pointer;
-    transition: 1s;
-    border-radius: 15%;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    transition: 0.3s;
+}
+
+#trocar-img:hover {
+    background-color: #0056b3;
 }
