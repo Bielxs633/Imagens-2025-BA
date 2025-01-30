@@ -1,0 +1,25 @@
+:root{
+    --imagem-fundo:url(./img)
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: var(--imagem-fundo);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background-image 1s;
+}
+#trocar-img{
+    padding: 8px 8px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 15%;
+}
